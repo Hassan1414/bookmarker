@@ -29,6 +29,7 @@ addBtn.addEventListener("click",function(){
         localStorage.setItem("sites",JSON.stringify(sitesContainer))
         displaySite()
         resetForm()
+        addBtn.innerHTML = "Add website"
     }
 })
 
